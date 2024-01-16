@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="game_Quantity">
+        <item>5</item>
+        <item>10</item>
+        <item>15</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Norsk</item>
+        <item>Tysk</item>
+    </string-array>
+    <string-array name="language_code">
+        <item>no</item>
+        <item>de</item>
+    </string-array>
+</resources>

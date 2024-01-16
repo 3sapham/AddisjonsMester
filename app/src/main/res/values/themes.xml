@@ -1,0 +1,20 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.S345368m1" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:fontFamily">@font/bowlby_one_sc</item>
+        <item name="android:shadowColor">@color/grey</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">5</item>
+    </style>
+
+    <style name="noShadowTheme" parent="Base.Theme.S345368m1">
+        <item name="android:shadowDx">0</item>
+        <item name="android:shadowDy">0</item>
+        <item name="android:shadowRadius">0</item>
+    </style>
+
+    <style name="Theme.S345368m1" parent="Base.Theme.S345368m1" />
+</resources>

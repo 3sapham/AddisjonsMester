@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="Generelle instillinger">
+
+        <ListPreference
+            android:title="@string/pref_quantity_header"
+            android:summary="@string/pref_quantity_txt"
+            android:key="quantityKey"
+            android:entries="@array/game_Quantity"
+            android:entryValues="@array/game_Quantity"
+            android:defaultValue="5"
+            android:icon="@android:drawable/ic_menu_manage">
+        </ListPreference>
+
+        <ListPreference
+            android:title="@string/pref_lang_title"
+            android:summary="@string/pref_lang_txt"
+            android:key="languageKey"
+            android:entries="@array/languages"
+            android:entryValues="@array/language_code"
+            android:defaultValue="no"
+            android:icon="@android:drawable/ic_menu_mapmode">
+        </ListPreference>
+
+    </PreferenceCategory>
+</PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AddisjonsMester</string>
+    <string name="title">Addisjons Mester</string>
+    <string name="start">Start spillet</string>
+    <string name="about">Om spillet</string>
+    <string name="pref">Preferanser</string>
+    <string name="header">Hva blir svaret?</string>
+    <string name="finish_header">Du klarte det!</string>
+    <string name="play_again">Spill igjen</string>
+    <string name="home">Hjem</string>
+    <string name="finish_txt">Du har fullført tilgjengelige spørsmål</string>
+    <string name="correct">Riktig!</string>
+    <string name="wrong">Feil</string>
+    <string name="dialog_txt">Er du sikker du vil avslutte?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nei</string>
+    <string name="welcome_header">Velkommen til AddisjonsMester</string>
+    <string name="welcome_txt">Hei, vår AddisjonMester! I denne appen kan du lære og øve på addisjon på en morsom måte!</string>
+    <string name="how_header">Slik Spiller Du:</string>
+    <string name="how_tekst">1. Se på matteoppgaven og legg sammen tallene.\n2. Skriv svaret i boksen og trykk OK.\n3. Hvis du får det riktig, går du videre. Ellers prøver du igjen og blir bedre!</string>
+    <string name="pref_quantity_header">Antall regnestykker</string>
+    <string name="pref_quantity_txt">Velg antall regnestykker</string>
+    <string name="pref_lang_title">Språk</string>
+    <string name="pref_lang_txt">Velg språk</string>
+</resources>

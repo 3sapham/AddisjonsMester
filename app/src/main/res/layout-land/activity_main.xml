@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_launcher_background"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/logoIcon"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/ic_launcher_foreground" />
+
+        <TextView
+            android:id="@+id/appName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
+            android:fontFamily="@font/bowlby_one_sc"
+            android:lineSpacingExtra="-40sp"
+            android:text="@string/title"
+            android:textAlignment="center"
+            android:textColor="@color/yellow"
+            android:textSize="50sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/start_btn"
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:layout_marginBottom="40dp"
+            android:backgroundTint="@color/orange"
+            android:lineSpacingExtra="-10sp"
+            android:text="@string/start"
+            android:textSize="28sp"
+            app:icon="@android:drawable/ic_media_play"
+            app:iconSize="50dp" />
+
+        <Button
+            android:id="@+id/about_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/about"
+            android:textSize="18sp"
+            app:icon="@android:drawable/ic_menu_help"
+            app:iconSize="30dp"
+            app:iconTint="@color/orange" />
+
+        <Button
+            android:id="@+id/pref_btn"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:text="@string/pref"
+            android:textSize="18sp"
+            app:icon="@android:drawable/ic_menu_edit"
+            app:iconSize="30dp"
+            app:iconTint="@color/orange" />
+    </LinearLayout>
+
+</LinearLayout>

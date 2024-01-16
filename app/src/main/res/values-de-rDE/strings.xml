@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AdditionsMester</string>
+    <string name="title">Additions Mester</string>
+    <string name="start">Starte das Spiel</string>
+    <string name="about">Über das Spiel</string>
+    <string name="pref">Präferenzen</string>
+    <string name="header">Was wird die Antwort sein?</string>
+    <string name="finish_header">Du hast es geschafft!</string>
+    <string name="play_again">Nochmal abspielen</string>
+    <string name="home">Heim</string>
+    <string name="finish_txt">Sie haben die verfügbaren Fragen beantwortet</string>
+    <string name="correct">Richtig!</string>
+    <string name="wrong">Fehler</string>
+    <string name="dialog_txt">Sind Sie sicher, dass Sie aufhören wollen?</string>
+    <string name="yes">Ja</string>
+    <string name="no">Nein</string>
+    <string name="welcome_header">Willkommen bei AdditionsMester</string>
+    <string name="welcome_txt">Hallo, unser AdditionMaster! In dieser App können Sie Addition auf spielerische Weise lernen und üben!</string>
+    <string name="how_header">Spielanleitung:</string>
+    <string name="how_tekst">1. Schauen Sie sich die mathematische Aufgabe an und addieren Sie die Zahlen.\n2. Schreiben Sie die Antwort in das Feld und klicken Sie auf OK.\n3. Wenn Sie es richtig machen, machen Sie weiter. Ansonsten versuchen Sie es noch einmal und werden besser!</string>
+    <string name="pref_quantity_header">Anzahl der Berechnungen</string>
+    <string name="pref_quantity_txt">Wählen Sie die Anzahl der Berechnungen aus</string>
+    <string name="pref_lang_title">Sprache</string>
+    <string name="pref_lang_txt">Wähle deine Sprache</string>
+</resources>
